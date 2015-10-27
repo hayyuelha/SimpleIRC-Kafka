@@ -15,6 +15,7 @@ Untuk menjalankan aplikasi, jalankan perintah `mvn exec:java`
 Test dilakukan dengan menjalankan 1 Server dan 3 Client. Client 1 (nick: hayyu) tergabung dalam channel lab dan channel1. Client 2 (nick: icha) tergabung dalam channel lab. Client 3 (nick: user3) tergabung dalam channel channel1. 
 
 Berikut adalah test yang dilakukan:
+
 1. Memberikan perintah `/NICK`
 	Kasus normal: `/NICK hayyu`
 	Output		: `Online as hayyu`
